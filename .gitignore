@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# Models (large files)
+models/*.gguf
+models/vector_h_*
+models/gpt2/
+
+# Datasets
+datasets/
+*.arrow
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+
+# Cache
+.cache/
+*.pkl
+
+# Temporary
+tmp/
+temp/
